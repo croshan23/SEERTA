@@ -1,0 +1,44 @@
+
+;	----------- Logging Started Tue May 08 17:19:36.397 ----------- 
+;Time		SEV	Message							Method
+17:19:36.397	   8	DLL_PROCESS_ATTACH                                	DllMain @ XProvider.cpp:733
+17:19:36.475	   4	lineInit returned 0 with 7 lines                  	InitTapi @ XProvider.cpp:170
+17:19:36.553	   8	Negotiated TAPI 1.4 on line 0.                    	openLine @ XProvider.cpp:267
+17:19:36.663	   8	lineOpen on line 0 returned with 0                	openLine @ XProvider.cpp:288
+17:19:36.663	   8	lineGetDevCaps returned -> 0                      	openLine @ XProvider.cpp:303
+17:19:36.663	   4	Failed to Negotiate TAPI 1.4 on line 1.           	openLine @ XProvider.cpp:272
+17:19:36.663	   4	Failed to Negotiate TAPI 1.4 on line 2.           	openLine @ XProvider.cpp:272
+17:19:36.663	   8	Negotiated TAPI 1.4 on line 3.                    	openLine @ XProvider.cpp:267
+17:19:36.663	   8	lineOpen on line 3 returned with 0                	openLine @ XProvider.cpp:288
+17:19:36.663	   8	lineGetDevCaps returned -> 0                      	openLine @ XProvider.cpp:303
+17:19:36.663	   4	lineSetStatusMessages failed                      	openLine @ XProvider.cpp:332
+17:19:36.663	   8	Negotiated TAPI 1.4 on line 4.                    	openLine @ XProvider.cpp:267
+17:19:36.663	   8	lineOpen on line 4 returned with 0                	openLine @ XProvider.cpp:288
+17:19:36.663	   8	lineGetDevCaps returned -> 0                      	openLine @ XProvider.cpp:303
+17:19:36.663	   4	lineSetStatusMessages failed                      	openLine @ XProvider.cpp:332
+17:19:36.663	   8	Negotiated TAPI 1.4 on line 5.                    	openLine @ XProvider.cpp:267
+17:19:36.663	   4	lineOpen on line 5 returned with -2147483575      	openLine @ XProvider.cpp:284
+17:19:36.663	   8	Negotiated TAPI 1.4 on line 6.                    	openLine @ XProvider.cpp:267
+17:19:36.663	   8	lineOpen on line 6 returned with 0                	openLine @ XProvider.cpp:288
+17:19:36.663	   8	lineGetDevCaps returned -> 0                      	openLine @ XProvider.cpp:303
+17:20:22.569	   8	LineCallBackProc. dwMessage: 2                    	LineCallBackProc @ XProvider.cpp:140
+17:20:22.569	   8	LineCallBackProc. dwMessage: 8                    	LineCallBackProc @ XProvider.cpp:140
+17:20:22.569	   4	answerCall handle 65536                           	answerCall @ XProvider.cpp:439
+17:20:22.569	   4	answerCall handle 65536                           	answerCall @ XProvider.cpp:439
+17:20:22.584	   8	LineCallBackProc. dwMessage: 2                    	LineCallBackProc @ XProvider.cpp:140
+17:20:22.584	   8	LineCallBackProc. dwMessage: 12                   	LineCallBackProc @ XProvider.cpp:140
+17:20:22.584	   4	lineAnswer returned 66424                         	answerCall @ XProvider.cpp:444
+17:20:22.584	   4	lineAnswer returned 66407                         	answerCall @ XProvider.cpp:444
+17:20:27.178	   8	LineCallBackProc. dwMessage: 12                   	LineCallBackProc @ XProvider.cpp:140
+17:20:27.178	   8	LineCallBackProc. dwMessage: 2                    	LineCallBackProc @ XProvider.cpp:140
+17:20:27.225	   8	wave/out -> 1                                     	getWaveID @ Sound.cpp:127
+17:20:27.225	   8	Entered playSound                                 	playSound @ Sound.cpp:329
+17:20:27.225	   8	Closed the file                                   	playSound @ Sound.cpp:423
+17:20:34.725	   8	returning OK                                      	playSound @ Sound.cpp:543
+17:20:36.22 	   8	LineCallBackProc. dwMessage: 9                    	LineCallBackProc @ XProvider.cpp:140
+17:20:41.913	   8	wave/out -> 1                                     	getWaveID @ Sound.cpp:127
+17:20:41.913	   8	Entered playSound                                 	playSound @ Sound.cpp:329
+17:20:41.913	   8	Closed the file                                   	playSound @ Sound.cpp:423
+17:21:21.631	   8	returning OK                                      	playSound @ Sound.cpp:543
+17:21:39.225	   8	LineCallBackProc. dwMessage: 2                    	LineCallBackProc @ XProvider.cpp:140
+17:21:39.225	   8	wave/in -> 

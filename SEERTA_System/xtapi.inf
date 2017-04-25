@@ -1,0 +1,20 @@
+[Terminal]	; CREAF DI5630 #2 
+name=COM3
+addresses=0
+codec=AT+VSM=128, 8000,OK	; Set for 8-bit unsigned PCM 8Khz  FOR 130 , 8000
+reset=ATZ,OK
+init=AT,OK
+voiceSetup=AT+FCLASS=8,OK
+voiceStart=AT+VTX,CONNECT
+answer=AT+VLS=1,OK
+dial=ATD,OK
+onHook=ATH0,OK
+analogSource=AT+VLS=0,OK		; No-Op part of the answer command
+analogDestination=AT+VLS=0,OK	; No-Op part of the answer command
+voiceTX=AT+VTX,CONNECT
+voiceRX=AT+VRX,CONNECT
+digitDuration=AT+VTD=100,OK	;in tens of ms. must match reality!
+digitGenerate=AT+VTS=,OK
+enableCallerID=AT+VCID=1,OK
+encoding=A_RAW				; X_G721, X_PCM_U8, ULAW, ALAW, X_IMA, X_RAW
+
